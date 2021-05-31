@@ -1,17 +1,17 @@
-# CRUD in 5 Minutes with Phoenix and Elixir
+# OAuth Login with Phoenix and Überauth
 
-A basic guide teaching how install Erlang, Elixir and Phoenix where you'll be able to run your first CRUD.
+A guide teaching how add an [OAuth](https://pt.wikipedia.org/wiki/OAuth) login using [Überauth](https://github.com/ueberauth/ueberauth).
 
-Read the article at [CRUD in 5 Minutes with Phoenix and Elixir](https://www.wbotelhos.com/crud-in-5-minutes-with-phoenix-and-elixir).
+Read the article at [OAuth Login with Phoenix and Überauth](oauth-login-with-phoenix-and-uberauth).
 
 # Setup
 
 ```sh
 # clone the project
-git clone git@github.com:wbotelhos/crud-in-5-minutes-with-phoenix-and-elixir.git
+git clone git@github.com:wbotelhos/oauth-login-with-phoenix-and-uberauth.git
 
 # access the project
-cd crud-in-5-minutes-with-phoenix-and-elixir
+cd oauth-login-with-phoenix-and-uberauth
 
 # installs the dependencies
 mix deps.get
