@@ -21,6 +21,14 @@ defmodule BibleWeb.Router do
     resources "/persons", PersonController
   end
 
+  scope "/auth", BibleWeb do
+    pipe_through :browser
+
+    delete "/signout", AuthController, :signout
+    get "/:provider", AuthController, :request
+    get "/:provider/callback", AuthController, :callback
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", BibleWeb do
   #   pipe_through :api
