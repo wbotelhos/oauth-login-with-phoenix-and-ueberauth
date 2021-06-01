@@ -1,17 +1,17 @@
-# OAuth Login with Phoenix and Überauth
+# OAuth Login with Phoenix and Ueberauth
 
-A guide teaching how add an [OAuth](https://pt.wikipedia.org/wiki/OAuth) login using [Überauth](https://github.com/ueberauth/ueberauth).
+A guide teaching how add an [OAuth](https://pt.wikipedia.org/wiki/OAuth) login using [Ueberauth](https://github.com/ueberauth/ueberauth).
 
-Read the article at [OAuth Login with Phoenix and Überauth](oauth-login-with-phoenix-and-uberauth).
+Read the article at [OAuth Login with Phoenix and Ueberauth](oauth-login-with-phoenix-and-ueberauth).
 
 # Setup
 
 ```sh
 # clone the project
-git clone git@github.com:wbotelhos/oauth-login-with-phoenix-and-uberauth.git
+git clone git@github.com:wbotelhos/oauth-login-with-phoenix-and-ueberauth.git
 
 # access the project
-cd oauth-login-with-phoenix-and-uberauth
+cd oauth-login-with-phoenix-and-ueberauth
 
 # installs the dependencies
 mix deps.get
