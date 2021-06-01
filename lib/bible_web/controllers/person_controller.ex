@@ -1,6 +1,8 @@
 defmodule BibleWeb.PersonController do
   use BibleWeb, :controller
 
+  plug BibleWeb.Plugs.Auth
+
   alias Bible.Persons
   alias Bible.Persons.Person
 
