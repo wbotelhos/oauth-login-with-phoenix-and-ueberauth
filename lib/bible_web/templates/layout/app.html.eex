@@ -15,10 +15,10 @@
 
         <ul>
           <li>
-            <%= if current_user(@conn) do %>
+            <%= if @current_user do %>
               <%= link "Signout", to: Routes.auth_path(@conn, :signout), method: :delete %>
 
-              <img alt="<%= "Logged in user's image" %>" src="<%= current_user(@conn).image %>">
+              <img alt="<%= "Logged in user's image" %>" src="<%= @current_user.image %>">
             <% else %>
               <%= link "Login with Google", to: Routes.auth_path(@conn, :request, :google) %>
             <% end %>

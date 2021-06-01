@@ -39,10 +39,6 @@ defmodule BibleWeb do
 
       # Include shared imports and aliases for views
       unquote(view_helpers())
-
-      def current_user(conn) do
-        Plug.Conn.get_session(conn, :current_user)
-      end
     end
   end
 
