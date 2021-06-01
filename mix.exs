@@ -20,7 +20,7 @@ defmodule Bible.MixProject do
   def application do
     [
       mod: {Bible.Application, []},
-      extra_applications: [:logger, :runtime_tools, :ueberauth, :ueberauth_google]
+      extra_applications: [:logger, :runtime_tools, :ueberauth_google]
     ]
   end
 
